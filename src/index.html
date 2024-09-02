@@ -44,20 +44,37 @@
 <body>
 
   <div class="home" style="background-image: url(./assets/bg.jpg); background-repeat: no-repeat; background-size: 100%;">
-    <nav class="text-white py-3">
+    <!-- Barra de navegación responsive -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RM PRODUCCIONES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pongámonos en contacto!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            <div class="flex gap-3 justify-center">
-              <a class="nav-link btn-nav active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link btn-nav" href="#">Servicios</a>
-              <a class="nav-link btn-nav" href="#">¿Quienes somos?</a>
-              <a class="nav-link btn-nav disabled" aria-disabled="true">Galeria</a>
-              <a href="" class="nav-link btn-nav">Pongamonos en contacto!</a>
-            </div>
-          
-      </nav>
-      
         <!--Home-->
-        <section class="w-full h-screen d-flex flex-col justify-center items-center">
+        <section class="w-screen h-screen d-flex flex-col justify-center items-center">
 
             <h1 class="text-text-color mb-0" style="font-size: 5em;">RM PRODUCCIONES</h1>
             <h3 class="text-text-color mt-0" style="font-size: 3em;">Creamos Soluciones</h3>
@@ -133,7 +150,7 @@
           
           <div class="card-services">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/>
+              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
             </svg>
             <h4>Videos para eventos</h4>
             <p class="">Creamos videos profesionales para tus eventos especiales, capturando los momentos más importantes y emocionantes. Desde bodas hasta conferencias corporativas, nuestro equipo produce contenido audiovisual de alta calidad que perdurará en el tiempo.</p>
@@ -186,7 +203,7 @@
         <section class=" my-3 d-flex justify-around gap-3 text-center">
           
 
-          <div class="bg-primary-color text-text-color px-4 w-50">
+          <div class="bg-secundario-color text-text-color px-4 w-50">
             <img style="border-radius: 100%; filter: drop-shadow(5px 5px 50px  );" width="200px" class="m-auto" src="./assets/59F6C3E9-4EE2-4810-A6D4-8F7FFBB07796.jpg" alt="Ramiro Morales">
             <h2>Ramiro Morales</h2>
             <h3>Desarrollador Y Diseñador Web</h3>
