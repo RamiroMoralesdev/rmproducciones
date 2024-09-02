@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="description" content="Expertos en desarrollo y diseño web. Creamos sitios web modernos, responsivos y personalizados para impulsar tu presencia en línea. Soluciones web innovadoras para tu negocio.">
+    <meta name="keywords" content="desarrollo web, diseño web, diseño grafico, videos para 15, sitios responsivos, presencia online, presencia en google, mantenimiento web, páginas personalizadas, desarrollo web wordpress, tienda online, diseño moderno, experiencia de usuario, optimización SEO, marketing digital">
     <title>RM PRODUCCIONES &#8211; Desarrollo y diseño web</title>
 
     <style>
@@ -195,16 +197,6 @@
         
         </section>
         
-        <h2 class="text-center">Un poco de nosotros...</h2>
-        
-        <section class="h-screen">
-
-          <div class="text-primary-color fs-1" style="width: 30%; height: 100%; border: 2px solid red;">
-            <span class="counter" data-target="100"></span>
-            <p>Casos de Exito!</p>
-          </div>
-
-        </section>
 
 
 
@@ -216,39 +208,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    <script>
-      const counters = document.querySelectorAll('.counter');
-  
-      function animateCounters() {
-          counters.forEach(counter => {
-              const updateCounter = () => {
-                  const target = +counter.getAttribute('data-target');
-                  const count = +counter.innerText;
-  
-                  const increment = target / 200; // Ajusta la velocidad de incremento
-  
-                  if (count < target) {
-                      counter.innerText = Math.ceil(count + increment);
-                      setTimeout(updateCounter, 10);
-                  } else {
-                      counter.innerText = target;
-                  }
-              };
-  
-              const isVisible = (el) => {
-                  const rect = el.getBoundingClientRect();
-                  return rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight);
-              };
-  
-              if (isVisible(counter)) {
-                  updateCounter();
-              }
-          });
-      }
-  
-      window.addEventListener('scroll', animateCounters);
-  </script>
   
 </body>
 </html>
